@@ -477,13 +477,26 @@ body{
      display: block;
   }
   @media (min-width: 990px){
+#three{
+  display: flex;
+  margin-left: 3rem;
+  height: 17rem;
+
+}
+#two{
+  display: flex;
+width: 36vw;
+  height: 17rem;
+}
+  .cardmore{
+    margin-top: 2.5rem;
+    margin-left: 6vw;
+    display: inline-block;
+  }
   #text{
     width: 100vw;
    }
-  #three{
-  width: 25vw;
-  margin-left: 26.5vw;
-  }
+  
   .btn-container{
   margin: 2rem 30%;
   }
@@ -729,7 +742,7 @@ body{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 3rem  0 1rem;
+    margin: 5rem  0 2.5rem;
     font-size: 2.4rem;
     color:  #00dc69;
   }
@@ -798,9 +811,13 @@ body{
     text-shadow: 0 0 2px #00dcc6;
   }
   @media (min-width: 767px) {
-      
+      .head{
+            margin: 2rem  0 2.5rem;
+
+      }
       .head,.contact-title{
           font-size: 5rem;
+
       }
       .media{
           font-size: 3rem;
